@@ -40,10 +40,10 @@ $(document).ready(function() {
   var colourPriorToMouseEnter;
 
   $('#pad').on("mouseenter","div",function (){
+    colourPriorToMouseEnter = $(this).css("background-color");
     if(isDrawOn){
       $(this).css("background-color",penColour);
     }else{
-      colourPriorToMouseEnter = $(this).css("background-color");
       $(this).css("background-color", "rgba(100, 128,128,128)");
     }
   });
