@@ -1,6 +1,6 @@
 var $pad;
-var widthSquareCount = 0;
-var heightSquareCount = 0;
+var widthSquareCount = 25;
+var heightSquareCount = 25;
 var totalGridSquares = 0;
 var penColour = "black";
 var isDrawOn = true;
@@ -33,8 +33,6 @@ function onClickResizeGrid(){
 $(document).ready(function() {
 
   $pad = $('#pad');
-  widthSquareCount = 16;
-  heightSquareCount = 16;
   totalGridSquares = widthSquareCount * heightSquareCount;
 
   insertGridSquareDivs();
