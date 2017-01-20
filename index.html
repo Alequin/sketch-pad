@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Sketch Pad: Odin Project</title>
+
+    <link href="css/sketch-pad.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+
+    <div id="pad"></div>
+
+
+
+
+    <div id="button-wrapper">
+
+      <form>
+        <input id="radio-black" type="radio" name="colours" value="black" checked>Black</input>
+        <input id="radio-grey" type="radio" name="colours" value="grey">Grey</input>
+        <input id="radio-white" type="radio" name="colours">White</input>
+        <input id="radio-red" type="radio" name="colours">Red</input>
+        <input id="radio-green" type="radio" name="colours">Green</input>
+        <input id="radio-blue" type="radio" name="colours">Blue</input>
+      </form>
+
+      <button id="clear-button" onclick="onClickClearGrid()">Clear Grid</button>
+      <button id="resize-button" onClick="onClickResizeGrid()">Resize Grid</button>
+    </div>
+
+    <script src="js/jquery-3-1-1.js" rel="javascript"></script>
+    <script src="js/sketch-pad.js" rel="javascript"></script>
+
+  </body>
+</html>

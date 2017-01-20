@@ -1,0 +1,41 @@
+
+#pad{
+  width: 500px; height: 500px;
+  border: 2px solid black;
+  margin: auto;
+  background-color: white;
+}
+
+#button-wrapper{
+  width: 500px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#clear-button{
+  float: right;
+}
+#resize-button{
+  clear: both;
+  float: right;
+}
+
+.grid-square{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  float: left;
+}
+
+form{
+  display: inline-block;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+}
