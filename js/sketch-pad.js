@@ -9,7 +9,7 @@ const MIN_SIZE = 1;
 const MAX_SIZE = 50;
 
 function onClickClearGrid(){
-  $('.grid-square').css("background-color", "grey");
+  $('.grid-square').css("background-color", "white");
 }
 
 function onClickResizeGrid(){
